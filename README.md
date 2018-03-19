@@ -12,7 +12,7 @@ Click [here](https://developers.google.com/maps/) to go to the Google Maps devel
 
 ## Instructions
 
-You need to make **two modifications** on App.js first:
+After cloning the repo, you need to make **two modifications** on App.js first:
 
 ### CityVerve API Key
 
@@ -34,7 +34,9 @@ const GMAPSKEY = 'YOUR-GOOGLEMAPS-KEY-HERE';
 
 You need to replace the string **YOUR-GOOGLEMAPS-KEY-HERE** with your own personal _Google Maps API key_. You can get a key (for free) at the [Google Maps Developer Portal](https://developers.google.com/maps/).
 
-After cloning the repo, you can use **yarn start** on CLI to get a dev instance running on your machine.
+After that use **npm install** to get all npm packages needed.
+
+You can use **yarn start** on CLI to get a dev instance running on your machine.
 
 In order to build the distro use **yarn build**, after that you can copy the **build** folder to any webserver.
 

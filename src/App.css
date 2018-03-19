@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    display: inline-block;
+    text-align: center;
+    color: #3e98c7;
+    font-weight: bold;
+}
+
+.CircularProgressbar:hover {
+  opacity: 0.3;
+}
+
+.CircularProgressbar.orange .CircularProgressbar-background {
+  fill: orange;
+}
+
+.CircularProgressbar.green .CircularProgressbar-background {
+  fill: green;
+}
+
+.CircularProgressbar.red .CircularProgressbar-background {
+  fill: red;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #fff;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #fff;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: transparent;
+}
